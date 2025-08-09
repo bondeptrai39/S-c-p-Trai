@@ -243,13 +243,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/trongnguyenhubbloxfruit/TrongNguyenFlyGui/refs/heads/main/FlyGuiV3.txt"))()
   end
   })
-   AddButton(Tab5o, {
-     Name = "bloxtrap",
-    Callback = function()
-	 getgenv().autosetup = {
-path = 'Bloxstrap', --> doesnt work rn
-setup = true --> init after installaiton
-}
-loadstring(game:HttpGet('https://raw.githubusercontent.com/qwertyui-is-back/Bloxstrap/main/Initiate.lua'), 'lol')()  
-  end
-  })
+  
