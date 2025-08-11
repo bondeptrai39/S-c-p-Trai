@@ -1,8 +1,6 @@
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+  loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
-      
-
-      
+         
        local Window = MakeWindow({
          Hub = {
          Title = "Ronbon",
@@ -49,7 +47,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Full Mon",
+     Name = "Full Moon",
     Callback = function()
 	  game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "c7cf4abb-6682-4f33-86e2-03af70ab3153", game.Players.LocalPlayer)
   end
@@ -651,22 +649,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiH
     loadstring(game:HttpGet(" https://raw.githubusercontent.com/bondeptrai39/S-c-p-Trai/refs/heads/main/Auto%20bounty%20Banana%20hub.txt"))()
   end
   })
-  AddButton(Tab3o, {
-     Name = "Bloxtrap",
-    Callback = function()
-    getgenv().autosetup = {
-path = 'Bloxstrap', --> doesnt work rn
-setup = true --> init after installaiton
-}
-loadstring(game:HttpGet('https://raw.githubusercontent.com/qwertyui-is-back/Bloxstrap/main/Initiate.lua'), 'lol')()
-  end
-  })
-  AddButton(Tab12o, {
-     Name = "fadhen hub",
-    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/bananaGanteng/Legend/refs/heads/main/Steal%20a%20Brainrot"))()
-  end
-  })
   AddButton(Tab2o, {
      Name = "Banana Hub by chiriku",
     Callback = function()
@@ -684,7 +666,7 @@ AddButton(Tab2o, {
   end
   })
    AddButton(Tab5o, {
-     Name = "kaitun trongnguyen (bản thứ 2)  ",
+     Name = "kaitun trongnguyen  ",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/trongnguyenhubbloxfruit/TrongNguyenKaitunBF_Vip/refs/heads/main/trongnguyenHubKaitun.lua"))()
   end
@@ -693,12 +675,6 @@ AddButton(Tab2o, {
      Name = "Banana Hub free by tuấn anh ios",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/Banana-Hub/refs/heads/main/Banana-Free.lua"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "W-azure",
-    Callback = function()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
   end
   })
    AddButton(Tab2o, {
