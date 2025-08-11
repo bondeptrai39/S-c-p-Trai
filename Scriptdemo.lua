@@ -46,9 +46,28 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/h
   end
   })
   AddButton(Tab1o, {
-     Name = "Min gaming",
+     Name = "Min gaming Vienamese",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinXoV"))()
   end
   })
+AddButton(Tab2o, {
+     Name = "Min gaming English",
+    Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinXoE"))() 
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "Rubuv3",
+    Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/RubuRoblox/refs/heads/main/RuBuRzVn"))() 
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "rubuv4",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/RuBuV4.lua"))()
+  end
+  })
+  
   
