@@ -946,7 +946,7 @@ v6.BorderSizePixel = 0;
 v6.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0);
 v6.Size = UDim2.new(0, 53.5, 0, 53.5);
 v6.BackgroundTransparency = 1;
-v6.Image = "rbxassetid:// 89509436667416";
+v6.Image = "rbxassetid:// 135956266995945";
 v6.Draggable = true;
 v6.MouseButton1Click:Connect(function()
 	game:GetService("VirtualInputManager"):SendKeyEvent(true, 305, false, game);
