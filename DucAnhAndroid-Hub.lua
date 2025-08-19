@@ -946,7 +946,7 @@ v6.BorderSizePixel = 0;
 v6.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0);
 v6.Size = UDim2.new(0, 53.5, 0, 53.5);
 v6.BackgroundTransparency = 1;
-v6.Image = "rbxassetid:// 135956266995945";
+v6.Image = "rbxassetid:// 140574296352391";
 v6.Draggable = true;
 v6.MouseButton1Click:Connect(function()
 	game:GetService("VirtualInputManager"):SendKeyEvent(true, 305, false, game);
@@ -10289,4 +10289,5 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Text = "Loading Done!",
 	Icon = "rbxthumb://type=Asset&id= 94337310104779&w=150&h=150",
 	Duration = 10
+
 });
