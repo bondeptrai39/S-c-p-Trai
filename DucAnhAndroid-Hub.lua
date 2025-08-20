@@ -8554,7 +8554,7 @@ v39:Button("Kaitun Cap", function(v462)
 	for v858, v859 in pairs(v463) do
 		if (v486[v859] and (game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Buy"   .. v859 , true) == 1)) then
 			local v1570 = Instance.new("ImageLabel", v487);
-			v1570.Image = "rbxassetid://9945562382";
+			v1570.Image = "rbxassetid:// 116500186115533";
 			v1570.ImageRectSize = Vector2.new(100, 100);
 			v1570.ImageRectOffset = v486[v859] * 100 ;
 		end
@@ -10291,6 +10291,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Duration = 10
 
 });
+
 
 
 
