@@ -124,7 +124,7 @@ v3.Window = function(v110, v111)
 	v146.BackgroundTransparency = 4.1;
 	v146.Position = UDim2.new(0.400426834, 0, 0.075000003, 0);
 	v146.Size = UDim2.new(0, 263, 0, 325);
-	v146.Image = "http://www.roblox.com/asset/?id="   .. tostring(18828384631) ;
+	v146.Image = "http://www.roblox.com/asset/?id="   .. tostring(70897387038730) ;
 	local v154 = Instance.new("UICorner");
 	v154.Name = "MCNR";
 	v154.Parent = v123;
@@ -10289,4 +10289,5 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Text = "Loading Done!",
 	Icon = "rbxthumb://type=Asset&id=13717478897&w=150&h=150",
 	Duration = 10
+
 });
