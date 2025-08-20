@@ -124,7 +124,7 @@ v3.Window = function(v110, v111)
 	v146.BackgroundTransparency = 4.1;
 	v146.Position = UDim2.new(0.400426834, 0, 0.075000003, 0);
 	v146.Size = UDim2.new(0, 263, 0, 325);
-	v146.Image = "http://www.roblox.com/asset/?id="   .. tostring(116500186115533) ;
+	v146.Image = "http://www.roblox.com/asset/?id="   .. tostring(70890315492325) ;
 	local v154 = Instance.new("UICorner");
 	v154.Name = "MCNR";
 	v154.Parent = v123;
@@ -8554,7 +8554,7 @@ v39:Button("Kaitun Cap", function(v462)
 	for v858, v859 in pairs(v463) do
 		if (v486[v859] and (game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Buy"   .. v859 , true) == 1)) then
 			local v1570 = Instance.new("ImageLabel", v487);
-			v1570.Image = "rbxassetid:// 116500186115533";
+			v1570.Image = "rbxassetid://70890315492325";
 			v1570.ImageRectSize = Vector2.new(100, 100);
 			v1570.ImageRectOffset = v486[v859] * 100 ;
 		end
@@ -10291,6 +10291,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Duration = 10
 
 });
+
 
 
 
