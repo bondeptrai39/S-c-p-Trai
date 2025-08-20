@@ -124,7 +124,7 @@ v3.Window = function(v110, v111)
 	v146.BackgroundTransparency = 4.1;
 	v146.Position = UDim2.new(0.400426834, 0, 0.075000003, 0);
 	v146.Size = UDim2.new(0, 263, 0, 325);
-	v146.Image = "http://www.roblox.com/asset/?id="   .. tostring(94337310104779) ;
+	v146.Image = "http://www.roblox.com/asset/?id="   .. tostring(94868066963918) ;
 	local v154 = Instance.new("UICorner");
 	v154.Name = "MCNR";
 	v154.Parent = v123;
@@ -10291,4 +10291,5 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Duration = 10
 
 });
+
 
