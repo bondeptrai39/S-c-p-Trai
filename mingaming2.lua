@@ -152,7 +152,7 @@ v3.Window = function(v110, v111)
 	v173.Position = UDim2.new(0, 30, 0.05, 0);
 	v173.Size = UDim2.new(0, 255, 0.05, 25);
 	v173.Font = Enum.Font.SourceSansBold;
-	v173.Text = "Min Gaming";
+	v173.Text = "Đức Anh Android ";
 	v173.TextSize = 17;
 	v173.TextColor3 = Color3.fromRGB(75, 188, 6);
 	v173.TextXAlignment = Enum.TextXAlignment.Left;
@@ -10285,7 +10285,7 @@ local v101 = require(game.ReplicatedStorage.Util.CameraShaker);
 v101:Stop();
 local v102 = game:GetService("Players");
 game:GetService("StarterGui"):SetCore("SendNotification", {
-	Title = "Min Gaming",
+	Title = "Đức Anh Android",
 	Text = "Loading Done!",
 	Icon = "rbxthumb://type=Asset&id=13717478897&w=150&h=150",
 	Duration = 10
