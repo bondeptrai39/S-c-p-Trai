@@ -8,7 +8,7 @@ screenGui.Parent = game.CoreGui
 screenGui.DisplayOrder = 100
 
 textLabel.Parent = screenGui
-textLabel.Size = UDim2.new(0, 200, 0, 40) -- Nhỏ lại kích thước hộp
+textLabel.Size = UDim2.new(0, 200, 0, 40) -- Nhỏ lại kích thước hộp 
 textLabel.Position = UDim2.new(0, 10, 0, 10)
 textLabel.Font = Enum.Font.FredokaOne
 textLabel.TextScaled = false
