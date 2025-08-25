@@ -2993,7 +2993,7 @@ end);
 local v49 = v16.Main:AddToggle("ToggleLevel", {
     Title = "Cày Cấp",
     Description = "",
-   Value = false,
+   Value = true,
 	Callback = function(value)
     _G.AutoFarm = value
       StopTween(_G.AutoFarm)		
@@ -9622,4 +9622,5 @@ v14:Notify({
     Title = "Đức Anh Android ",
     Content = "Tải Xong",
     Duration = 10
+
 });
