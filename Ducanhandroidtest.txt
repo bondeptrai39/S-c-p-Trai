@@ -2992,8 +2992,9 @@ task.spawn(function()
 end);
 local v49 = v16.Main:AddToggle("ToggleLevel", {
     Title = "Cày Cấp",
-    Description = "",
-   Value = true,
+    Description = ""
+Default = false,
+   Value = false,
 	Callback = function(value)
     _G.AutoFarm = value
       StopTween(_G.AutoFarm)		
@@ -9624,3 +9625,4 @@ v14:Notify({
     Duration = 10
 
 });
+
