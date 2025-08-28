@@ -1,0 +1,146 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+      
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Đức Anh Android Premium",
+         Animation = "Hop by Đức Anh Android"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Gey Key Ủng Hộ Mình Nhé🥀 ",
+        Description = "",
+        KeyLink = "https://funlink.io/PXHWbnS",
+        Keys = {"TRONGNGUYEN-F97-J98-QL9-123"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "script đang chạy",
+       Incorrectkey = "Đã Get Key Thành Công",
+       CopyKeyLink = "Đã Copy"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id= 111387880294313",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Tự động hop"})
+      local Tab2o = MakeTab({Name = "script để đánh"}
+    
+     
+------- BUTTON
+    
+    local Tab1o = MakeTab({Name = "Tự Động Hop"})
+    
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Full Moon",
+    Callback = function()
+	  game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "c7cf4abb-6682-4f33-86e2-03af70ab3153", game.Players.LocalPlayer)
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Hop Swords",
+    Callback = function() 
+      game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "0940dc34-b96d-411a-926b-79dd00b45eab", game.Players.LocalPlayer)
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Haki color",
+    Callback = function() 
+        game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "4bd0d732-1678-4957-a6a1-2fa220deebdc", game.Players.LocalPlayer)
+  end
+  })
+ 
+  AddButton(Tab1o, {
+     Name = "Hop prehistoric island ",
+    Callback = function() 
+       game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "e772b907-f854-4bc4-8826-f23dfb63fc68", game.Players.LocalPlayer)
+  end
+  }) 
+ 
+  AddButton(Tab1o, {
+     Name = "Hop Rip Indra",
+    Callback = function() 
+       game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "4946b5f2-4a2c-44e8-947e-f336caebde29", game.Players.LocalPlayer)
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Hop Dough King",
+    Callback = function() 
+       game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "d2f3855d-9b92-4515-8740-c0eb7ffcd781", game.Players.LocalPlayer)
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Hop Tyrant",
+    Callback = function() 
+       game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "f12d49ac-05c5-49b4-865f-afc7b227ef60", game.Players.LocalPlayer)
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Mirage island",
+    Callback = function() 
+       game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "f12d49ac-05c5-49b4-865f-afc7b227ef60", game.Players.LocalPlayer)
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Hop Dark Beard",
+    Callback = function() 
+       game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "b19eab3f-5da2-41f9-8d57-8822163b7219", game.Players.LocalPlayer)
+  end
+  })
+ 
+  AddButton(Tab1o, {
+     Name = "Hop Kitsune Island",
+    Callback = function() 
+    game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "cba5dc00-a9eb-411a-a708-2ceecfe33fb7", game.Players.LocalPlayer)
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Hop Soul Reaper",
+    Callback = function() 
+       game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "42079b6f-5d1d-41e9-8e09-730c0b1dbcda", game.Players.LocalPlayer)
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "Đức Anh Android",
+    Callback = function() 
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/bondeptrai39/S-c-p-Trai/refs/heads/main/%C4%90ucanhandroidtest.lua"))()
+  end
+  }) 
+ AddButton(Tab2o, {
+     Name = "Min gaming & Đức Anh Android",
+    Callback = function() 
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/bondeptrai39/S-c-p-Trai/refs/heads/main/MinGamingxDucAnhAndroid.txt"))()
+  end
+  }) 
+ AddButton(Tab2o, {
+     Name = "Tuấn Anh IOS",
+    Callback = function() 
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/TuanAnhIOS/refs/heads/main/TuanAnhIOS.lua"))()
+  end
+  }) 
+ AddButton(Tab2o, {
+     Name = "Trong nguyen hub",
+    Callback = function() 
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/cailonmemay9119111/Trongnguyen/refs/heads/main/trongnguyenxhub.txt"))()
+  end
+  }) 
+ 
+
+ 
+  
+  
+  
+  
+  
+  
+   
