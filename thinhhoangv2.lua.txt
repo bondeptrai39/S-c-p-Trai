@@ -175,8 +175,8 @@ hookfunction(require(game:GetService("ReplicatedStorage").Effect.Container.Death
 hookfunction(require(game:GetService("ReplicatedStorage").Effect.Container.Respawn), function() end)
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 Window = Fluent:CreateWindow({
-    Title = "cat egg v2 premium",
-    SubTitle="by thinh-hoang", 
+    Title = "Đức Anh Android",
+    SubTitle="by Ducanhbon", 
     TabWidth=155, 
     Theme="Light",
     Acrylic=false,
@@ -2357,7 +2357,7 @@ task.defer(function()
 end)
 wait(1.0)
 Tabs.Info:AddButton({
-        Title="cat egg",
+        Title="Đức Anh Android",
         Description="Discord",
         Callback=function()
             setclipboard(tostring("https://discord.gg/WWPQpucP")) 
@@ -2714,7 +2714,7 @@ spawn(function()
                 local CFrameTarget = CFrame.new(BushPosition)
                 Tween2(CFrameTarget)
                 Fluent:Notify({
-                    Title = "cat egg",
+                    Title = "Đức Anh Android",
                     Content = "Find Berry: " .. tostring(BerryName),
                     Duration = 10
                 })
@@ -4109,7 +4109,7 @@ local function createToggle(title, toggleKey, islands, islandName, notification)
             _G[toggleKey] = false
             if not notified then
                 Fluent:Notify({
-                    Title = "cat egg",
+                    Title = "Đức Anh Android",
                     Content = notification,
                     Duration = 10
                 })
@@ -9329,7 +9329,7 @@ local notificationCooldown = 10
 local currentTime = tick()
 if currentTime - lastNotificationTime >= notificationCooldown then
     game.StarterGui:SetCore("SendNotification", {
-        Title = "cat egg",
+        Title = "Đức Anh Android",
         Text = "Successfully",
         Duration = 1
     })
