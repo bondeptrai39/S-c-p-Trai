@@ -124,7 +124,7 @@ v3.Window = function(v110, v111)
 	v146.BackgroundTransparency = 4.1;
 	v146.Position = UDim2.new(0.400426834, 0, 0.075000003, 0);
 	v146.Size = UDim2.new(0, 263, 0, 325);
-	v146.Image = "http://www.roblox.com/asset/?id="   .. tostring(70897387038730) ;
+	v146.Image = "http://www.roblox.com/asset/?id="   .. tostring(88041179982840) ;
 	local v154 = Instance.new("UICorner");
 	v154.Name = "MCNR";
 	v154.Parent = v123;
@@ -152,7 +152,7 @@ v3.Window = function(v110, v111)
 	v173.Position = UDim2.new(0, 30, 0.05, 0);
 	v173.Size = UDim2.new(0, 255, 0.05, 25);
 	v173.Font = Enum.Font.SourceSansBold;
-	v173.Text = "Đức Anh Android ";
+	v173.Text = "Đức Anh Android";
 	v173.TextSize = 17;
 	v173.TextColor3 = Color3.fromRGB(75, 188, 6);
 	v173.TextXAlignment = Enum.TextXAlignment.Left;
@@ -946,7 +946,7 @@ v6.BorderSizePixel = 0;
 v6.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0);
 v6.Size = UDim2.new(0, 53.5, 0, 53.5);
 v6.BackgroundTransparency = 1;
-v6.Image = "rbxassetid://123780542652058";
+v6.Image = "rbxassetid://88041179982840";
 v6.Draggable = true;
 v6.MouseButton1Click:Connect(function()
 	game:GetService("VirtualInputManager"):SendKeyEvent(true, 305, false, game);
@@ -8554,7 +8554,7 @@ v39:Button("Kaitun Cap", function(v462)
 	for v858, v859 in pairs(v463) do
 		if (v486[v859] and (game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Buy"   .. v859 , true) == 1)) then
 			local v1570 = Instance.new("ImageLabel", v487);
-			v1570.Image = "rbxassetid://123780542652058";
+			v1570.Image = "rbxassetid://9945562382";
 			v1570.ImageRectSize = Vector2.new(100, 100);
 			v1570.ImageRectOffset = v486[v859] * 100 ;
 		end
@@ -10287,9 +10287,6 @@ local v102 = game:GetService("Players");
 game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Đức Anh Android",
 	Text = "Loading Done!",
-	Icon = "rbxthumb://type=Asset&id=13717478897&w=150&h=150",
+	Icon = "rbxthumb://type=Asset&id=88041179982840&w=150&h=150",
 	Duration = 10
-
 });
-
-
