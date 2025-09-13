@@ -3038,6 +3038,8 @@ spawn(function()
 				elseif (_G.FastAttackDelay == "Super Attack") then
 					_G.FastAttackDelay = 0.04;
 				elseif (_G.FastAttackDelay == "Xeter Attack") then
+							 	_G.FastAttackDelay = 0.01;
+				elseif (_G.FastAttackDelay == "Ducandroid Attack") then
 					_G.FastAttackDelay = 0;
 				end
 			end);
@@ -10289,4 +10291,5 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Text = "Loading Done!",
 	Icon = "rbxthumb://type=Asset&id=88041179982840&w=150&h=150",
 	Duration = 10
+
 });
