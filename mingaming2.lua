@@ -3022,6 +3022,7 @@ local v51 = {
 	"Fast Attack",
 	"Super Attack",
 	"Xeter Attack"
+	"Ducanhandroid Attack"
 };
 _G.FastAttackDelay = "Normal Attack";
 v33:Dropdown("Fast Attack Delay", v51, function(v309)
@@ -3039,7 +3040,7 @@ spawn(function()
 					_G.FastAttackDelay = 0.04;
 				elseif (_G.FastAttackDelay == "Xeter Attack") then
 							 	_G.FastAttackDelay = 0.01;
-				elseif (_G.FastAttackDelay == "Ducandroid Attack") then
+				elseif (_G.FastAttackDelay == "Ducanhandroid Attack") then
 					_G.FastAttackDelay = 0;
 				end
 			end);
@@ -10293,3 +10294,4 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Duration = 10
 
 });
+
