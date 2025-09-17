@@ -3188,7 +3188,7 @@ spawn(function()
 				elseif (v63 == "Super Attack") then
 					v63 = 0.04;
 				elseif (v63 == "Xeter Attack") then
-					v63 = 0.02;
+					v63 = 0.01;
 				end
 			end);
 		end
@@ -12206,4 +12206,5 @@ function FastAttackConnectorFunction()
 	end);
 	return ReturnFunctions;
 end
+
 return FastAttackConnectorFunction();
