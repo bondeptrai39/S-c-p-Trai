@@ -1,4 +1,38 @@
-
+print("Break");
+local v0 = require(game:GetService("ReplicatedStorage").Notification);
+v0.new("<Color=Cyan>Welcome Đức Anh Android <Color=/>"):Display();
+wait(0.5);
+v0.new("<Color=Yellow>Everyone Goes to Discord to Communicate<Color=/>"):Display();
+wait(1);
+repeat
+	wait();
+until game.Players.LocalPlayer
+if  not game:IsLoaded() then
+	game.Loaded:Wait();
+end
+local v1 = task;
+if game:GetService("Players").LocalPlayer.PlayerGui.Main:FindFirstChild("ChooseTeam") then
+	repeat
+		task.wait();
+		if (game:GetService("Players").LocalPlayer.PlayerGui:WaitForChild("Main").ChooseTeam.Visible == true) then
+			if (getgenv().Team == "Marines") then
+				for v1932, v1933 in pairs(getconnections(game:GetService("Players").LocalPlayer.PlayerGui.Main.ChooseTeam.Container['Marines'].Frame.TextButton.Activated)) do
+					for v2129, v2130 in pairs(getconnections(game:GetService("UserInputService").TouchTapInWorld)) do
+						v2130:Fire();
+					end
+					v1933.Function();
+				end
+			else
+				for v1934, v1935 in pairs(getconnections(game:GetService("Players").LocalPlayer.PlayerGui.Main.ChooseTeam.Container['Pirates'].Frame.TextButton.Activated)) do
+					for v2131, v2132 in pairs(getconnections(game:GetService("UserInputService").TouchTapInWorld)) do
+						v2132:Fire();
+					end
+					v1935.Function();
+				end
+			end
+		end
+	until (game.Players.LocalPlayer.Team ~= nil) and game:IsLoaded()
+end
 if  not LPH_OBFUSCATED then
 	function LPH_JIT_MAX(...)
 		return ...;
@@ -12173,4 +12207,5 @@ function FastAttackConnectorFunction()
 end
 
 return FastAttackConnectorFunction();
+
 
