@@ -682,6 +682,14 @@ AddButton(Tab2o, {
     loadstring(game:HttpGet("https://raw.githubusercontent.com/bondeptrai39/S-c-p-Trai/refs/heads/main/ThienanHub.txt"))()
   end
   })
+AddButton(Tab3o, {
+     Name = "Fly",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bondeptrai39/S-c-p-Trai/refs/heads/main/flyducanhandroid.txt"))()
+  end
+  })
+
+  
   
   
     
