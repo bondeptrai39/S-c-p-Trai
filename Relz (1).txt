@@ -9,7 +9,7 @@ Windows:AddMinimizeButton({
   Button = { Image = "rbxassetid://88041179982840", BackgroundTransparency = 0 },
   Corner = { CornerRadius = UDim.new(0, 6) }
 })
-local Tabs = {
+local Farm = {
     InfoTab = Window:Tab({
 		Title = "Thông Tin",
 		Icon = "info",
@@ -10205,4 +10205,5 @@ task.spawn(function()
             end)
         end
     end
+
 end)
