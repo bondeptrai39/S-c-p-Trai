@@ -219,7 +219,7 @@ v3.Window = function(v209, v210, v211, v212)
 	local v213 = {};
 	local v214 = false;
 	local v215 = false;
-	local v211 = v211 or 123448871674913 ;
+	local v211 = v211 or 88041179982840 ;
 	local v216 = "";
 	local v212 = v212 or Enum.KeyCode.RightControl ;
 	local v217 = string.gsub(tostring(v212), "Enum.KeyCode.", "");
@@ -1582,7 +1582,7 @@ v29.BorderSizePixel = 0;
 v29.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0);
 v29.Size = UDim2.new(0, 53.5, 0, 53.5);
 v29.BackgroundTransparency = 1;
-v29.Image = "rbxassetid://123448871674913";
+v29.Image = "rbxassetid://88041179982840";
 v29.Draggable = true;
 v29.MouseButton1Click:Connect(function()
 	game:GetService("VirtualInputManager"):SendKeyEvent(true, 305, false, game);
@@ -3527,19 +3527,19 @@ if _G.FastAttack then
 	end)();
 end
 local v52 = v3:Window("Đức Anh Android", "");
-local v53 = v52:T("Tab Status", "rbxassetid://10734984606");
-local v54 = v52:T("Tab General", "rbxassetid://10723407389");
-local v55 = v52:T("Setting Other", "rbxassetid://10734950309");
-local v56 = v52:T("Tab Item", "rbxassetid://10734975692");
-local v57 = v52:T("Race - Mirage", "rbxassetid://10747372167");
-local v58 = v52:T("Tab Event", "rbxassetid://10709783577");
-local v59 = v52:T("Tab Player", "rbxassetid://10747373176");
-local v60 = v52:T("Tab Visual", "rbxassetid://10723346959");
-local v61 = v52:T("Tab Raid", "rbxassetid://10723345749");
-local v62 = v52:T("Tab Teleport", "rbxassetid://10723434557");
-local v63 = v52:T("Tab Shop", "rbxassetid://10734952479");
-local v64 = v52:T("Devil Fruit", "rbxassetid://10709761889");
-local v65 = v52:T("Miscellaneous", "rbxassetid://10709782582");
+local v53 = v52:T("Tab Status", "rbxassetid://88041179982840");
+local v54 = v52:T("Tab General", "rbxassetid://88041179982840");
+local v55 = v52:T("Setting Other", "rbxassetid://88041179982840");
+local v56 = v52:T("Tab Item", "rbxassetid://88041179982840");
+local v57 = v52:T("Race - Mirage", "rbxassetid://88041179982840");
+local v58 = v52:T("Tab Event", "rbxassetid://88041179982840");
+local v59 = v52:T("Tab Player", "rbxassetid://88041179982840");
+local v60 = v52:T("Tab Visual", "rbxassetid://88041179982840");
+local v61 = v52:T("Tab Raid", "rbxassetid://88041179982840");
+local v62 = v52:T("Tab Teleport", "rbxassetid://88041179982840");
+local v63 = v52:T("Tab Shop", "rbxassetid://88041179982840");
+local v64 = v52:T("Devil Fruit", "rbxassetid://88041179982840");
+local v65 = v52:T("Miscellaneous", "rbxassetid://88041179982840");
 v53:Seperator("Join Discord");
 v53:Label("Everyone Goes Into Socialize");
 v53:Button("Copy Discord Link", function()
